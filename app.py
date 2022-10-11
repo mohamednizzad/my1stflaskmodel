@@ -3,7 +3,6 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 from random import randint
-from sklearn.utils import shuffle
 from sklearn.preprocessing import MinMaxScaler
 model = load_model('medical_trial_model.h5')
 
