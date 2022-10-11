@@ -7,4 +7,4 @@ requests==2.28.1
 tensorboard==2.10.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.10.0
+tensorflow-cpu==2.10.0
