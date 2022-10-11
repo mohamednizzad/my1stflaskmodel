@@ -53,7 +53,8 @@ opt-einsum==3.3.0
 outcome==1.2.0
 packaging==21.3
 paho-mqtt==1.5.0
-pandas==1.0.1
+
+
 Pillow==8.0.1
 pipwin==0.5.1
 playsound==1.2.2
