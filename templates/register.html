@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Health Check Up</title>
+
+</head>
+<body>
+
+	<form action="/register" method="POST">
+	
+		<p>Enter Your Age: <input type="number" min="13" max="100" name="fname">
+		</p>
+		<p>
+			<button type ="reset">Clear</button>
+			<button type ="submit">Submit</button>
+		</p>
+	
+	</form>
+
+	<div id = "container">
+		<ul id="list">
+			<li>Prediction: {{useroutput}}</li>
+		</ul>
+	</div>
+
+</body>
+</html>
